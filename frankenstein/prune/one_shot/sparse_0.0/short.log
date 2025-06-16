@@ -1,0 +1,13 @@
+[2025-06-09 06:41:58.254] [info] Running: "basecaller" "sparse_0.0/export" "/vol/bitbucket/bl1821/frankenstein/data/atotc_short.pod5" "--reference" "/vol/bitbucket/bl1821/frankenstein/data/atotc.fasta"
+[2025-06-09 06:41:58.285] [info] > Creating basecall pipeline
+[2025-06-09 06:41:58.496] [info] Using CUDA devices:
+[2025-06-09 06:41:58.496] [info] cuda:0 - NVIDIA A30
+[2025-06-09 06:41:59.448] [info] Calculating optimized batch size for GPU "NVIDIA A30" and model export. Full benchmarking will run for this device, which may take some time.
+[2025-06-09 06:42:04.039] [info] cuda:0 using chunk size 9984, batch size 352
+[2025-06-09 06:42:04.537] [info] cuda:0 using chunk size 4992, batch size 608
+[WARNING][1;31m empty sequence name in the input.[0m
+[2025-06-09 06:42:05.247] [warning] Could not determine sequencing Chemistry from read data - some features might be disabled
+[2025-06-09 06:42:07.562] [info] > Finished in (ms): 2304
+[2025-06-09 06:42:07.562] [info] > Simplex reads basecalled: 100
+[2025-06-09 06:42:07.562] [info] > Basecalled @ Samples/s: 2.187361e+05
+[2025-06-09 06:42:07.570] [info] > Finished

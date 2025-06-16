@@ -1,2 +1,21 @@
+# Python cache
 __pycache__
+
+# Virtual environment
 fenv
+
+# Experimental data
+*.txt
+*.fasta
+*.fastq
+*.pod5
+*.slow5
+*.bam
+*.sam
+*.tsv
+
+# Model training
+*.tar
+*.tensor
+*.pkl
+*.csv
